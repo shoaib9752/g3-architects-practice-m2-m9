@@ -1,3 +1,6 @@
+/* *shared styles */
+
+
 /* work sans font */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
@@ -6,3 +9,73 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
+.btn-primary {
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: none;
+}
+
+
+/* *header start */
+
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-titile {
+    font-size: 3rem;
+    color: var(--dark-01, #131313);
+    font-weight: 700;
+}
+
+
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 18px
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--dark-02, #424242);
+
+}
+
+/* *banner styles */
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner-p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
