@@ -381,10 +381,7 @@ footer {
         margin: 20px;
         padding: 30px;
     }
-
-
 }
-
 /* *For Tablet Device */
 
 @media screen and (min-width:576px) (max-width:960px) {
@@ -410,9 +407,4 @@ footer {
         padding: 10px 50px;
         justify-content: center;
     }
-
-
-
-
-
 }
